@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-   
+    
+  
 }
+@import url('main.css');
+ @import url('http://meyerweb.com/eric/tools/css/reset/.css'); 
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
