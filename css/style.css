@@ -201,7 +201,7 @@ padding: 2%;
     font-size: 3rem;
     
 }
-
+/* letras de neon */
 @keyframes glow {
 	0%,
 	100% {
@@ -226,6 +226,7 @@ padding: 2%;
 .datos{
     color:#ffe9ea;
     background-color: #bb0e17;
+   
   
 }
 .text-foter{
@@ -235,6 +236,26 @@ padding: 2%;
 
 }
 .lle{
-    position: relative;
+    position: absolute;
+    padding-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #bb0e17;
    
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+flex-wrap:wrap;
+
+}
+.item{
+    flex:1;
+    padding: 10px;
+    background-color: #bb0e17;
+    
+
 }
