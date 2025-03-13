@@ -259,3 +259,27 @@ flex-wrap:wrap;
     
 
 }
+.btn {
+	position: relative;
+	top: 0;
+	transition: top 0.2s ease, box-shadow 0.2s ease;
+    color:aliceblue;
+}
+.btn:hover {
+	top: -3px;
+	box-shadow: 0 4px 6px rgba(233, 0, 0, 0.2);
+}
+.SEP {
+    color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding: 0;
+	transition:0.3s ease; /* duración 0.3s */
+}
+
+.SEP:hover{
+	padding: 20%;
+    background-color: #bb0e17;
+    
+}
