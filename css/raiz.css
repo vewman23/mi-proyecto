@@ -1,3 +1,13 @@
 @import url('main.css');
  @import url('http://meyerweb.com/eric/tools/css/reset/.css'); 
  @import url('theme.css');
+ @import 'reset.css';
+@import 'theme.css';
+@import 'root.css';
+@import 'types.css';
+@import 'base.css';
+@import 'grids.css';
+@import 'nav.css';
+@import 'parallax.css';
+@import 'typewriter.css';
+@import 'media-queries.css';
