@@ -8,8 +8,7 @@
   
 }
 
-@import url('main.css');
- @import url('http://meyerweb.com/eric/tools/css/reset/.css'); 
+
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -272,14 +271,31 @@ flex-wrap:wrap;
 .SEP {
     color: aliceblue;
   display: flex;
-  justify-content: center;
-  align-items: center;
-	padding: 0;
-	transition:0.3s ease; /* duración 0.3s */
-}
 
+	padding: 0;
+	transition:0.4s ease; /* duración 0.3s */
+}
+.ima{
+
+  opacity: 0;
+  position: absolute;
+
+
+}
+.ima:hover {
+    opacity: 100%;
+	transition:0.3s ease; /* duración 0.3s */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 10%;
+ 
+    
+   
+}
 .SEP:hover{
 	padding: 20%;
-    background-color: #bb0e17;
-    
+    background-color: #860d13;
+    opacity: 100%;
 }
