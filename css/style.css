@@ -299,3 +299,11 @@ flex-wrap:wrap;
     background-color: #860d13;
     opacity: 100%;
 }
+.ime{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -650px;
+   margin-left: -21;
+}
