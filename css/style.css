@@ -128,6 +128,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   color: #4e4e4e;
+  text-decoration: none;
 }
 .datos {
   background-color: black;
@@ -143,10 +144,52 @@ nav ul li a {
   padding-top: 4%;
   padding-block-end: 4%;
 }
+.SEP-1 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  transition: 0.4s ease; /* duración 0.3s */
+  padding-top: 4%;
+  padding-block-end: 4%;
+}
+.SEP-2 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  transition: 0.4s ease; /* duración 0.3s */
+  padding-top: 4%;
+  padding-block-end: 4%;
+}
+.SEP-3 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  transition: 0.4s ease; /* duración 0.3s */
+  padding-top: 4%;
+  padding-block-end: 4%;
+}
 .ima {
   opacity: 0;
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+.ima-1 {
+  opacity: 0;
+  position: absolute;
+  font-size: 1rem;
+}
+.ima-1:hover {
+  opacity: 100%;
+  transition: 0.3s ease; /* duración 0.3s */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: 10%;
 }
 .ima:hover {
   opacity: 100%;
@@ -161,6 +204,30 @@ nav ul li a {
 .SEP:hover {
   padding: 20%;
   background-color: #4e4e4e;
+  opacity: 100%;
+  font-size: 5rem;
+  display: flex;
+  justify-content: start;
+}
+.SEP-1:hover {
+  padding: 20%;
+  background-color: #ff1717;
+  opacity: 100%;
+  font-size: 5rem;
+  display: flex;
+  justify-content: start;
+}
+.SEP-2:hover {
+  padding: 20%;
+  background-color: #9597f0;
+  opacity: 100%;
+  font-size: 5rem;
+  display: flex;
+  justify-content: start;
+}
+.SEP-3:hover {
+  padding: 20%;
+  background-color: #ee9980;
   opacity: 100%;
   font-size: 5rem;
   display: flex;
@@ -204,4 +271,28 @@ nav ul li a {
   font-size: 7rem;
   margin-left: 15%;
   color: darkorange;
+}
+.title-1 {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  margin-top: 20%;
+  font-size: 7rem;
+  margin-left: 15%;
+  color: rgb(255, 255, 255);
+}
+.title-2 {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  margin-top: 20%;
+  font-size: 7rem;
+  margin-left: 15%;
+  color: #9597f0;
+}
+.title-3 {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  margin-top: 20%;
+  font-size: 7rem;
+  margin-left: 15%;
+  color: #ee9980;
 }
