@@ -180,7 +180,7 @@ img {
 .texto {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  transition: 3s ease-in-out;
+
   font-style: normal;
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
@@ -193,12 +193,21 @@ img {
   text-decoration: none;
 }
 .datos {
-  background-color: #ffd382;
   padding-top: 2%;
   padding-block-end: 2%;
 }
 .none {
   text-decoration: none;
+  color: rgb(250, 78, 78);
+  font-family: "Cal Sans", sans-serif;
+  font-size: 3rem;
+}
+.coment {
+  color: rgb(250, 78, 78);
+  font-family: "Cal Sans", sans-serif;
+  font-size: 4rem;
+}
+.coment-1 {
   color: rgb(250, 78, 78);
   font-family: "Cal Sans", sans-serif;
   font-size: 3rem;
