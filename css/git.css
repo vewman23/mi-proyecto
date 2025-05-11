@@ -1,88 +1,205 @@
 /* Reset CSS */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html,
 body {
-	background: linear-gradient(45deg, #000000, #000000);
-	padding: 15px;
+  background: linear-gradient(45deg, #9f89ff, #ffd382);
+  padding: 15px;
 }
 
 nav {
-	
-	height: 80px;
-	width: 100%;
-	position: relative;
-	display: flex;
-	justify-content: space-around;
-  }
-  
+  height: 80px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
 
-  
-  nav ul {
-	float: right;
-	margin-right: 20px;
-  
-	z-index: 1000;
-  }
-  
-  nav ul li {
-	display: inline-block;
-	justify-content: space-around;
-	line-height: 80px;
-	margin: 5px;
-  }
-  
-  nav ul li a {
-	color: rgb(253, 253, 253);
-	padding: 7px 13px;
-	border-radius: 3px;
-	text-decoration: none;
-	justify-content: space-between;
-  }
+nav ul {
+  float: right;
+  margin-right: 20px;
+
+  z-index: 1000;
+}
+
+nav ul li {
+  display: inline-block;
+  justify-content: space-around;
+  line-height: 80px;
+  margin: 5px;
+}
+
+nav ul li a {
+  color: rgb(253, 253, 253);
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+  justify-content: space-between;
+}
 img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-	display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 /* Main CSS */
 .grid-wrapper > div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .grid-wrapper > div > img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .grid-wrapper {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-auto-rows: 200px;
-	grid-auto-flow: dense;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+  padding-top: 5%;
+  padding-block-end: 5%;
 }
 .grid-wrapper .wide {
-	grid-column: span 2;
+  grid-column: span 2;
 }
 .grid-wrapper .tall {
-	grid-row: span 2;
+  grid-row: span 2;
 }
 .grid-wrapper .big {
-	grid-column: span 2;
-	grid-row: span 2;
+  grid-column: span 2;
+  grid-row: span 2;
 }
-.title{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color:red;
-	font-size: 4rem;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 78, 78);
+  font-size: 3rem;
+  margin-block-end: 7%;
+  margin-top: 8%;
+  font-family: "Cal Sans", sans-serif;
+}
+.title-f1 {
+  color: aliceblue;
+  display: inline;
+  margin-top: 20%;
+}
+
+.caja-texto-historia {
+  background-image: url("../add/img/AA-FF-campaña-aston-martin-4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.contenido-historia {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 2%;
+}
+.text-secundario h2 {
+  font-family: "Cal Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  width: 100%;
+}
+.caja-texto-historia-1 {
+  background-image: url("../add/img/Ruiz\ Rosell\ Manuel\ Alejandro-lata-imagen-global.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+}
+.caja-texto-historia-2 {
+  background-image: url("../add/img/publicación.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  color: black;
+}
+.text-secundario-1 h2 {
+  font-family: "Cal Sans", sans-serif;
+  color: rgb(255, 0, 0);
+  font-size: 36px;
+  width: 100%;
+}
+.caja-texto-historia-3 {
+  background-image: url("../add/img/revista-voge-primer\ plano.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  color: rgb(255, 46, 46);
+  background-color: black 0.2;
+}
+.tamaño {
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  transition: 3s ease-in-out;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+.title:hover {
+  font-size: 4rem;
+  transition: 1s ease-out;
+}
+.texto {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  transition: 3s ease-in-out;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+.lle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4e4e4e;
+  text-decoration: none;
+}
+.datos {
+  background-color: #ffd382;
+  padding-top: 2%;
+  padding-block-end: 2%;
+}
+.none {
+  text-decoration: none;
+  color: rgb(250, 78, 78);
+  font-family: "Cal Sans", sans-serif;
+  font-size: 3rem;
 }
