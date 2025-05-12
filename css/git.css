@@ -33,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(253, 253, 253);
+  color: rgb(255, 54, 54);
   padding: 7px 13px;
   border-radius: 3px;
   text-decoration: none;
@@ -200,7 +200,7 @@ img {
   text-decoration: none;
   color: rgb(250, 78, 78);
   font-family: "Cal Sans", sans-serif;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 .coment {
   color: rgb(250, 78, 78);
@@ -213,5 +213,53 @@ img {
   font-size: 3rem;
 }
 
-@media (max-width: 768px) {
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #e6e6e6;
+  padding: 30px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #bb0e17;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.title-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 78, 78);
+  font-size: 3rem;
+  font-family: "Cal Sans", sans-serif;
+}
+.title-end:hover {
+  font-size: 4rem;
+  transition: 1s ease-out;
 }
