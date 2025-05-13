@@ -107,9 +107,9 @@ img {
 
 .tamaño button {
   padding: 17px;
-  background-color: rgb(250, 93, 65);
+  background-color: rgb(245, 74, 74);
   border-radius: 999px;
-  border-color: #ee2525;
+  border-color: hsla(0, 98%, 46%, 0.8);
   display: inline-block;
   justify-content: space-between;
   margin: 5px;
