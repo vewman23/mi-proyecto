@@ -129,9 +129,10 @@ img {
 .text-secundario h2 {
   font-family: "Cal Sans", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 36px;
+  font-size: 6rem;
   width: 100%;
 }
+
 .caja-texto-historia-1 {
   background-image: url("../add/img/Ruiz\ Rosell\ Manuel\ Alejandro-lata-imagen-global.jpg");
   background-size: cover;
@@ -160,7 +161,7 @@ img {
 .text-secundario-1 h2 {
   font-family: "Cal Sans", sans-serif;
   color: rgb(255, 0, 0);
-  font-size: 36px;
+  font-size: 6rem;
   width: 100%;
 }
 .caja-texto-historia-3 {
@@ -289,5 +290,11 @@ img {
   .tamaño button {
     padding: 8px;
     font-size: 0.8rem;
+  }
+  .text-secundario h2 {
+    font-size: 3rem;
+  }
+  .text-secundario-1 h2 {
+    font-size: 3rem;
   }
 }
