@@ -79,9 +79,7 @@ img {
   grid-row: span 2;
 }
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   color: rgb(250, 78, 78);
   font-size: 3rem;
   margin-block-end: 7%;
@@ -105,6 +103,21 @@ img {
   justify-content: center;
   width: 100%;
   min-height: 50vh;
+}
+
+.tamaño button {
+  padding: 17px;
+  background-color: rgb(250, 93, 65);
+  border-radius: 999px;
+  border-color: #ee2525;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 5px;
+  color: rgb(255, 230, 226);
+}
+
+.tamaño button:hover {
+  cursor: pointer;
 }
 
 .contenido-historia {
@@ -171,6 +184,9 @@ img {
   transition: 3s ease-in-out;
   font-style: normal;
   font-variation-settings: "wdth" 100, "YTLC" 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title:hover {
@@ -262,4 +278,16 @@ img {
 .title-end:hover {
   font-size: 4rem;
   transition: 1s ease-out;
+}
+@media (max-width: 768px) {
+  .text-secundario {
+    font-size: 3rem;
+  }
+  ul.tamaño {
+    font-size: 0.9rem;
+  }
+  .tamaño button {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
 }
